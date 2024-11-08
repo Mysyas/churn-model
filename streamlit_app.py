@@ -1,6 +1,7 @@
 import streamlit as st
 import backend
 
+
 if 'result' not in st.session_state:
     st.session_state.result="Résultat :"
 

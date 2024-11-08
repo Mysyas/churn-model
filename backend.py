@@ -1,8 +1,8 @@
-from flask import Flask
+#from flask import Flask
 import numpy as np
 import pickle
 
-app=Flask(__name__)
+#app=Flask(__name__)
 
 
 def predict(phone,gender,married,satisfaction,internet,download):
@@ -13,7 +13,7 @@ def predict(phone,gender,married,satisfaction,internet,download):
         return "Le client va churner" if y[0]==1 else "Le client ne va pas churner"
     return "erreur"
 
-if __name__ == '__main__': 
+#if __name__ == '__main__': 
   
-    app.run(debug = True,port=8501) 
+#    app.run(debug = True,port=8501) 
 
